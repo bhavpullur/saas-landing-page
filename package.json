@@ -1,3 +1,4 @@
+
 {
   "name": "saas-landing-page",
   "private": true,
@@ -33,4 +34,10 @@
     "tailwindcss": "^3.4.13",
     "vite": "^5.4.8"
   }
+  ,
+    "resolutions": {
+      "react": "^18.3.1"
+    }
+  
+  
 }
