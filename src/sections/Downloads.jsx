@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Element } from "react-scroll";
 import Marker from "../Components/Marker";
 import { links,logos } from "../constants";

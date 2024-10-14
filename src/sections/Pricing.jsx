@@ -2,7 +2,7 @@ import clsx from "clsx";
 import { plans } from "../constants";
 import { useState } from "react";
 import { Element } from "react-scroll";
-import Countup from "react-countup";
+import CountUp from "react-countup";
 import Button from "../Components/Button";
 
 const Pricing = () => {
@@ -96,7 +96,7 @@ const Pricing = () => {
                       )}
                     >
                       ${" "}
-                      <Countup
+                      <CountUp
                         start={plan.priceMonthly}
                         end={monthly ? plan.priceMonthly : plan.priceYearly}
                         duration={0.4}
